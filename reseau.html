@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Licence 1</title>
+        <style type="text/css">
+            body
+            {
+                background-color: rgb(85, 85, 204);
+            }
+            h1
+            {
+                font-size:50px;
+                color: yellow;
+            }
+            form
+            {
+                background-color: darkblue;
+                border: 5px double red;
+                padding: 50px;
+                border-radius: 10px 10px 10px 10px;
+                font-size: 25px;
+                height: 200px;
+                width: 200px;
+                font-family: 'Lucnamea Sans', 'Lucnamea Sans Regular', 'Lucnamea Grande', 'Lucnamea Sans Unicode', Geneva, Verdana, sans-serif;
+                color: chartreuse;
+            }
+            input
+            {
+                border-radius: 20px 20px 20px 20px;
+                background-color: brown;
+                color: yellow;
+                font-family: cursive;
+            }
+            select
+            {
+                border-radius: 20px;
+                color: red;
+                border-color: cadetblue;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>Adresse IP</h1>
+            <form action="adresseIP.cgi" method="get">
+                Partie1 : <input type="number" name="Partie1"/><br>
+                Partie2 : <input type="number" name="Partie2"/><br>
+                Partie3 : <input type="number" name="Partie3"/><br>
+                Partie4 : <input type="number" name="Partie4"/><br>
+                <input type="submit" value="send"/>
+            </form>
+        </center>
+    </body>
+</html>
